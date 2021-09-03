@@ -5,8 +5,8 @@
 int isFim (char palavra[]){
     int resultado=0;
     // se der fim = 1, para o processo
-   switch (strcmp(palavra, "FIM"))
-   {
+switch (strcmp(palavra, "FIM"))
+{
     case 0:
     resultado=1;
     break;
@@ -28,8 +28,8 @@ int palindromo (char *palavra) {
     int auxiliar, x = 0;
     auxiliar = inverte(palavra, strlen(palavra), x);
     // pra responnder sim ou nao nno final
-      if (auxiliar == 1) {return 1;}
-      else{ return 0;}
+    if (auxiliar == 1) {return 1;}
+    else{ return 0;}
 }
 
 int main() {
